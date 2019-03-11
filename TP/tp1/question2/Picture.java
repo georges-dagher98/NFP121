@@ -94,7 +94,7 @@ public class Picture {
     /**
      * Slowly move the circle vertically by 'distance' pixels.
      */
-    public void MoveVertical() {
+    public void SunSet() {
        sun.slowMoveVertical(200);
     }
     
@@ -102,7 +102,7 @@ public class Picture {
     {
         Picture picture =new Picture();
         picture.draw();
-        picture.MoveVertical();
+       // picture.SunSet();
         
     }
 
